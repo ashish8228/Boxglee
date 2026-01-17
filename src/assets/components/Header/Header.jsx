@@ -6,9 +6,9 @@ import HeaderMain from './HeaderMain'
 const Header = () => {
   return (
     <div>
-        <HeaderTop/>
-        <HeaderMiddle/>
-        <HeaderMain/>
+      <HeaderTop />
+        <HeaderMiddle />
+        <HeaderMain />
     </div>
   )
 }

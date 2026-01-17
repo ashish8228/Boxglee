@@ -2,79 +2,102 @@
 :root {
   font-family: "Figtree", sans-serif;
 }
-
-/* Headings */
 h1 {
-  font-family: "Calluna", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 1;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
 }
 
 h2 {
-  font-family: "Calluna", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 1;
-  color: rgb(37, 44, 56);
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 1.2;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1;
-  color: rgb(41, 47, 69);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
-  color: rgb(126, 130, 144);
 }
 
 h5 {
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 21px;
   line-height: 1.2;
-  color: rgb(126, 130, 144);
 }
 
 h6 {
- font-weight: 500;
+  font-style: normal;
+  font-weight: 400;
   font-size: 19px;
   line-height: 1.2;
 }
 
-
 p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* a {
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1;
-  color: #E9A944;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  line-height: 1.6;
 }
 
-a:hover {
-  color: #008FC4;
-} */
+@media (max-width: 767px) {
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.2;
+  }
+
+  h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.2;
+  }
+
+  h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
