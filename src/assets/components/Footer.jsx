@@ -49,14 +49,14 @@ const Footer = () => {
   return (
     <footer className="bg-[#0a1f40] text-white">
       <div className="container mx-auto px-4 py-10 ">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8  flex-wrap">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8  flex-wrap">
           {/* Company */}
           <div>
             <h6 className="font-semibold text-[18px] mb-4">Company</h6>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
-                  <a href={link.url}>{link.label}</a>
+                  <a href={link.url} className="hover:underline">{link.label}</a>
                 </li>
               ))}
             </ul>
@@ -116,7 +116,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mt-3.5">
               {socialLinks.map((social, idx) => (
                 <a
                   key={idx}

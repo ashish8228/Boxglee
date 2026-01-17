@@ -37,11 +37,13 @@ const BoxgleeDifference = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {differences.map((item, idx) => (
           <div key={idx} className="flex flex-col items-center text-center space-y-4">
-            <img
+            <div className="max-w-35">
+              <img
               src={item.img}
               alt={item.alt}
               className="w-full h-auto object-cover rounded"
             />
+            </div>
             <h3 className="text-lg font-semibold">{item.title}</h3>
             <p className="italic text-sm text-gray-700">{item.text}</p>
           </div>
