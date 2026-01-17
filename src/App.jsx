@@ -5,14 +5,12 @@ import Header from './assets/components/Header/Header'
 import LandigImg from './assets/components/LandigImg'
 
 function App() {
-
   return (
-    <div className='relative'>
+    <div>
       <Header />
-      <LandigImg />
-      <BoxgleeDifference/>
-      <Footer />
-
+        <LandigImg />
+        <BoxgleeDifference/>
+        <Footer />
     </div>
   )
 }

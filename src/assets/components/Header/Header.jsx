@@ -5,7 +5,7 @@ import HeaderMain from './HeaderMain'
 
 const Header = () => {
   return (
-    <div>
+    <div className='sticky top-0 z-50 bg-white'>
       <HeaderTop />
         <HeaderMiddle />
         <HeaderMain />

@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.policy.map((link) => (
                 <li key={link.label}>
-                  <a href={link.url}>{link.label}</a>
+                  <a href={link.url} className="hover:underline">{link.label}</a>
                 </li>
               ))}
             </ul>
@@ -80,7 +80,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.contact.map((link) => (
                 <li key={link.label}>
-                  <a href={link.url}>{link.label}</a>
+                  <a href={link.url} className="hover:underline">{link.label}</a>
                 </li>
               ))}
             </ul>
@@ -92,7 +92,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.brands.map((link) => (
                 <li key={link.label}>
-                  <a href={link.url}>{link.label}</a>
+                  <a href={link.url} className="hover:underline">{link.label}</a>
                 </li>
               ))}
             </ul>

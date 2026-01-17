@@ -34,7 +34,7 @@ const HeaderTop = () => {
 
   return (
     <div className="bg-[#091f40] text-white ">
-      <div className="max-w-350  mx-auto flex items-center justify-between py-1">
+      <div className="max-w-350  mx-auto hidden md:flex items-center justify-between py-1 px-7.5">
         {/* Left section Social icons  */}
         <div>
           <ul className="social inline-flex flex-wrap">
@@ -63,7 +63,6 @@ const HeaderTop = () => {
               </li>
             ))}
           </ul>
-
         </div>
       </div>
     </div>

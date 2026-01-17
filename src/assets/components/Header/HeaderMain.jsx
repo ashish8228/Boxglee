@@ -4,9 +4,9 @@ const HeaderMain = () => {
 
   const Navlink = ["CANDLES", "AROMATHERAPY", "AIR FRESHNER", "THE GIFT SHOP", "THE ARADHANA SHOP", "COLLECTIONS", "HOME DECOR", "BULK ENQUIRY", "CONTACT US"]
   return (
-    <div className='border-b-[0.8px] border-[#dfe3e8]'>
+    <div className=' border-b-[0.8px] border-[#dfe3e8]'>
       <nav>
-        <ul className='flex items-center justify-center'>
+        <ul className='hidden md:flex items-center justify-center flex-wrap'>
           {Navlink.map((val, idc) => {
             return (
               <li key={idc}>
