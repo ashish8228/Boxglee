@@ -1,0 +1,80 @@
+@import "tailwindcss";
+:root {
+  font-family: "Figtree", sans-serif;
+}
+
+/* Headings */
+h1 {
+  font-family: "Calluna", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Calluna", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1;
+  color: rgb(37, 44, 56);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  color: rgb(41, 47, 69);
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgb(126, 130, 144);
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgb(126, 130, 144);
+}
+
+h6 {
+ font-weight: 500;
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #E9A944;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #008FC4;
+} */
