@@ -3,6 +3,7 @@ import BoxgleeDifference from './assets/components/Differences'
 import Footer from './assets/components/Footer'
 import Header from './assets/components/Header/Header'
 import LandigImg from './assets/components/LandigImg'
+import ProductGrid from './assets/components/ProductGrid'
 
 function App() {
   return (
@@ -10,7 +11,12 @@ function App() {
       <Header />
         <LandigImg />
         <BoxgleeDifference/>
+        <ProductGrid/>
+
+
+
         <Footer />
+        
     </div>
   )
 }
